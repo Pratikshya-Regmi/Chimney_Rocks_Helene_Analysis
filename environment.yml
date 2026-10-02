@@ -1,0 +1,20 @@
+# Software environment used for the analysis.
+# The analysis was run with GRASS 8.5.0dev, PDAL 2.6.2 and Python 3.12.12;
+# the package versions below are those of that environment.
+name: helene-geomorphic-change
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - grass>=8.4        # GRASS with PDAL support (v.in.pdal); analysis used 8.5.0dev
+  - pdal=2.6.2
+  - numpy=2.2
+  - scipy=1.16
+  - pandas=2.3
+  - matplotlib=3.10
+  - rasterio=1.4
+  - pyproj=3.7
+  - shapely=2.1
+  - geopandas=1.1
+  - pillow
+  - jupyterlab
