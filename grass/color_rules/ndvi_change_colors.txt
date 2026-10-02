@@ -1,0 +1,20 @@
+# Extreme erosion (strong negative)
+-1.0    220:20:60
+-0.4    220:20:60
+
+# Mild erosion
+-0.4    220:220:220
+-0.05   220:220:220
+
+# No change
+-0.05   220:220:220
+0.05    220:220:220
+
+# Mild deposition
+0.05    145:191:219
+0.4     145:191:219
+
+# Extreme deposition
+0.4     0:76:153
+1.0     0:76:153
+
