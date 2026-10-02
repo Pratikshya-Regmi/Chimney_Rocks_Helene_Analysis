@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="gee_boun" id="gee_boun">
+	<SimpleField name="cat" type="int"></SimpleField>
+</Schema>
+<Folder><name>gee_boun</name>
+  <Placemark id="gee_boun.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gee_boun">
+		<SimpleData name="cat">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.2917466123775,35.4623277893104 -82.2987473975955,35.4437452495364 -82.213881373816,35.4233101193989 -82.209227540988,35.4420092021859 -82.2917466123775,35.4623277893104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
